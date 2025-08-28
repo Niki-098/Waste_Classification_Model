@@ -29,23 +29,23 @@ Finally, the trained model was tested on custom video inputs to evaluate real-wo
 
 ## 3. How to Run
 
-**Step 1: Preprocess the dataset**
+**Step 1: Preprocess the dataset**<br>
 *python preprocess.py*
 
 
-**Splits data into train/val sets.**
+**Splits data into train/val sets.**<br>
 
 Generates YOLO annotations.<br>
 Creates preview images with bounding boxes.
 
-**Step 2: Train the model**
+**Step 2: Train the model**<br>
 *python train_model.py*
 
 
 Trains YOLOv8 on the processed dataset.<br>
 Saves weights in runs/train/scrap_detector/
 
-**Step 3: Run inference on video**
+**Step 3: Run inference on video**<br>
 *python simulation.py*
 
 
