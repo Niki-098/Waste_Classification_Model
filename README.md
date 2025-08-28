@@ -1,4 +1,4 @@
-# Waste Classification Model ♻
+# Waste Classification Model 
 ## 1. Approach
 
 The project focuses on automatic waste detection and classification using YOLOv8.
@@ -53,7 +53,7 @@ Select a video file.<br>
 Model runs detection using best.pt.<br>
 Saves output video in current directory as output_<video_name>.mp4.
 
-## 4. Challenges Faced**
+## 4. Challenges Faced
 
 **GPU Limitation:** Training YOLO on CPU was very slow.
 
