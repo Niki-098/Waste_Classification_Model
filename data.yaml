@@ -1,0 +1,5 @@
+path: dataset  # Update to your output_dir
+train: train/images
+val: val/images
+nc: 6
+names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
