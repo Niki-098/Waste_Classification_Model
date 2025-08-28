@@ -33,8 +33,7 @@ Finally, the trained model was tested on custom video inputs to evaluate real-wo
 *python preprocess.py*
 
 
-**Splits data into train/val sets.**<br>
-
+Splits data into train/val sets.<br>
 Generates YOLO annotations.<br>
 Creates preview images with bounding boxes.
 
