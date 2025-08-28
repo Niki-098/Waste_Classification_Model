@@ -56,6 +56,7 @@ Saves output video in current directory as output_<video_name>.mp4.
 ## 4. Challenges Faced**
 
 **GPU Limitation:** Training YOLO on CPU was very slow.
+
 **Solution:** Used Google Colab T4 GPU, which significantly accelerated training and testing.
 
 **Bounding Box Generation:** Since the dataset did not have predefined annotations, bounding boxes were auto-generated using thresholding and contours. Some images required fine-tuning of threshold values for better accuracy.
